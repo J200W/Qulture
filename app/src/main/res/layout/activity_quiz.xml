@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".DoQuestion">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@android:color/holo_green_dark"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/TheQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:text="La question"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+
+            <Button
+                android:id="@+id/REP1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rep"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/REP2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="rep"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/REP3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="rep"
+                android:layout_marginBottom="10dp"/>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

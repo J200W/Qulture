@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "641243550479",
+    "firebase_url": "https://qulture-fe642-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "qulture-fe642",
+    "storage_bucket": "qulture-fe642.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641243550479:android:a8e2080bf6b5017600247a",
+        "android_client_info": {
+          "package_name": "com.example.qulture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641243550479-h9avur1gbgmos47epsc90rgf9s998h9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvnQzcQpDmJKAZqsqq4fzxYqOTykFg5VI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641243550479-h9avur1gbgmos47epsc90rgf9s998h9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

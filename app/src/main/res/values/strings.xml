@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Qulture</string>
+    <string name="slogan_string">La culture avec un grand Q !</string>
+    <string name="mes_fiches_title_page">Mes Fiches</string>
+    <string name="quiz_title_page">Quiz</string>
+    <string name="mon_compte_title_page">Mon Compte</string>
+
+    <string-array name="les_matières">
+        <item>Français</item>
+        <item>Maths</item>
+        <item>Histoire-Géographie</item>
+        <item>Histoire des Arts</item>
+    </string-array>
+
+    <string name="AjouterQuest">Ajouter une Question</string>
+    <string name="AjouterRep">Ajouter une Réponse</string>
+    <string name="TaQuest">Ta Question</string>
+
+    <string name="CreeQuest">Crée ta question</string>
+    <string name="BonneRep">Bonne Réponse</string>
+    <string name="MauvRep">Mauvaise Réponse</string>
+    <string name="default_fiche">Nom de la fiche</string>
+    <string name="default_quiz">Nom du quiz</string>
+    <string name="bottom_compte">Compte</string>
+    <string name="bottom_quiz">Quiz</string>
+    <string name="bottom_fiche">Fiche</string>
+    <string name="Loading_Screen">Qulture!</string>
+    <string name="Exit_Screen">N\'oubliez pas !</string>
+    <string name="account_message">Bienvenue sur Qulture !\nVeuillez vous identifier pour commencer vos révisions !</string>
+    <string name="create_account_message">Creez votre compte en suivant les indications ci dessous !</string>
+    <string name="NomPrenom">Nom et Prénom</string>
+    <string name="Mdp">Mot de Passe</string>
+    <string name="AjouterFiche">Ajouter une Fiche</string>
+    <string name="AjouterMatière">Ajouter une Matière</string>
+    <string name="Connexion">Connexion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

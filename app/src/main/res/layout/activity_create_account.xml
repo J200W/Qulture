@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:text="@string/create_account_message"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:hint="Votre Pseudo"
+                app:endIconMode="clear_text"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:startIconDrawable="@drawable/ic_compte"
+                tools:layout_editor_absoluteX="0dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/NewUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout2"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:hint="Votre mot de passe"
+                app:endIconMode="clear_text"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:startIconDrawable="@drawable/ic_password"
+                tools:layout_editor_absoluteX="0dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/PasswordCreate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout3"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:hint="Confirmez votre mot de passe"
+                app:endIconMode="clear_text"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:startIconDrawable="@drawable/ic_password"
+                tools:layout_editor_absoluteX="0dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/PasswordConfirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/CreateAccountConfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Créer"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

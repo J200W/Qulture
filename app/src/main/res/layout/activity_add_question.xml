@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddQuiz">
+    <Button
+        android:layout_marginBottom="30dp"
+        android:id="@+id/quizConfirmQuizzBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/lightGreen"
+        android:text="Ajouter"
+        android:textColor="@color/white"
+        android:textSize="18sp">
+    </Button>
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@android:color/holo_green_dark"
+                app:cardCornerRadius="8dp"
+                android:layout_marginBottom="10dp"
+                app:cardElevation="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView
+                        android:id="@+id/yes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/CreeQuest"
+                        android:textSize="30sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="@string/TaQuest"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/quest"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/AjouterQuest"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="@string/BonneRep"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/goodAnsw"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/AjouterRep" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/MauvRep"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/badAns1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/AjouterRep" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/MauvRep"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/badAns2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/AjouterRep">
+                    </com.google.android.material.textfield.TextInputEditText>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

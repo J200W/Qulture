@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_compte"
+        android:title="@string/bottom_compte"
+        android:icon="@drawable/ic_compte">
+    </item>
+    <item
+        android:id="@+id/ic_quiz"
+        android:title="@string/bottom_quiz"
+        android:icon="@drawable/ic_quiz">
+    </item>
+    <item
+        android:id="@+id/ic_file"
+        android:title="@string/bottom_fiche"
+        android:icon="@drawable/ic_file">
+    </item>
+</menu>

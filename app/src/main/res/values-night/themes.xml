@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Qulture" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#096868</item>
+        <item name="colorPrimaryVariant">#424242</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lightGreen</item>
+        <item name="colorSecondaryVariant">@color/lightGreen</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">#121212</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundColor">@color/black</item>
+    </style>
+
+    <string name="mode">Night</string>
+
+    <style name="LoadingScreen">
+        <item name="android:background">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="DefalutTextStyleButton">
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:fontFamily">@font/kanit</item>
+    </style>
+
+    <style name="DefalutTextStyleView">
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize">25sp</item>
+    <item name="android:fontFamily">@font/kanit</item>
+    </style>
+
+    <style name="TitleTextTile">
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize">30sp</item>
+    <item name="android:fontFamily">@font/kanit</item>
+    </style>
+
+    <style name="SubtitleTextStyle">
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:fontFamily">@font/kanit</item>
+    </style>
+
+        <!-- Style pour la navigation bar -->
+
+    <style name="BottomNavigationBar" parent="Widget.Design.BottomNavigationView">
+    <item name="android:minHeight">35dp</item>
+    <item name="android:textSize">70sp</item>
+    <item name="android:textColor">@color/red</item>
+    <item name="android:fontFamily">@font/kanit</item>
+    </style>
+
+</resources>
